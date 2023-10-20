@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    background-image: url("./fond.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head{
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    padding:  45px 0;
+    width: 80%;
+}
+.header{
+    display: inline-flex;
+    align-items: center;
+    gap: 30em;
+    width: 100%;
+    height: 57.831px;
+}
+.header-left{
+    width: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header-left .img{
+    padding-right: 30px;
+    border-right: 1px solid;
+}
+.header-left p{
+    color: #000;
+    font-family: Trajan Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.header-center p {
+    color: #000;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.header-right{
+    color: #000;
+    font-family: "Kanit";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.content{
+    padding:  150px 0;
+    margin: 0 auto;
+    width: 80%;
+}
+.title-banner{
+    position: relative;
+    display: flex;
+    gap: 36%;
+}
+.title-banner .big-title{
+    font-family: Kanit;
+    font-size: 50px;
+    line-height: 100%;
+}
+.big-title #radioEmia{
+    color: #FF7E67;
+}
+.title-banner .btn{
+    position: absolute;
+    bottom: 40px;
+    border-radius: 25px;
+    border: 3px solid;
+    display: flex;
+    padding: 10px 32px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    background-color: transparent;
+}
+.paragraph-banner{
+    display: flex;
+    gap: 77px;
+    font-family: inter;
+    position: relative;
+}
+
+.content-left-side{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-left-side ul{
+    line-height: 100px;
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+}
+.content-left-side ul li{
+    list-style: none;
+    line-height: 50%;
+}
+.content-right-side{
+    position: absolute;
+    right: -12%;
+    width: 70%;
+    height: auto;
+    border: 1px solid;
+
+}
+.content-right-side #radioImage{
+    width: 100%;
+    position: absolute;
+}
+
+.player{
+    position: sticky;
+    padding: 20px 10px;
+    bottom: 0;
+    height: 73px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 25%;
+    color: #D9D9D9;
+    font-family: inter;
+    background: #1D3037;
+}
+.player-left{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    line-height: 8px;
+    font-size: 14px;
+}
+.player-left #icon {
+    width: 53px;
+    height: 53px;
+    border-radius: 6px;
+    background: #D9D9D9;
+}
+.player-left #title{
+    font-weight: 800;
+}
+.player-center {
+    display: flex;
+    align-items: flex-start;
+    gap: 81px;
+}
+.player-right{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.player-right .displayer{
+    position: relative;
+    top: -3px;
+    background-color:  #868282;
+    border-radius: 5px;
+    width: 142px;
+    height: 6px;
+}
